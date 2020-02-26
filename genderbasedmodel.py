@@ -1,5 +1,6 @@
 import csv as csv
 import numpy as np
+import pandas as pd
 
 csv_file_object = csv.reader(open('C:/Priya UT Dallas/Titanic/excel/train.csv','rb'))
 header = csv_file_object.next()
