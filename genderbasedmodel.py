@@ -24,7 +24,7 @@ print 'Proportion of women who survived is %s' % ratio_women_survived
 print 'Proportion of men who survived is %s' % ratio_men_survived
 
 
-test_file = open('C:/Priya UT Dallas/Titanic/excel/test.csv','rb')
+test_file = open('C:/Priya UT Dallas/Titanic/excel/test.csv','rb+')
 test_reader = csv.reader(test_file)
 header = test_reader.next()
 
